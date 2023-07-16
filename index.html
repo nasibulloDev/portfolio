@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/7/7d/Wolf_icon.png">
+    <link rel="stylesheet" href="./Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./aos/dist/aos.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
+    <title>Nasibulloh Shavkatbekov</title>
+</head>
+<body id="body">  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+<div class="loading">
+  <div class="main">
+    <div class="dot">
+      <div class="dot2"></div>
+    </div>
+  </div>
+</div>
+<nav id="nav" class="navbar navbar-expand-xl bg-dark navbar-dark fixed-top">
+        <h1 class="navbar-brand" href="#">Nasibulloh</h1>
+      
+        <button onclick="navBack()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div style="margin-left: -14%;" class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul  class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Xizmatlar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Mahoratim</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Haqimda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aloqa">Aloqa</a>
+            </li>
+            <div style="display: flex; margin-top: 4%;" class="rang">
+              <button class="btn btn-primat" style="width: 30px; margin-top: 4%; height: 4vh; background: white; border:1px solid black; border-radius: 50%;" onclick="white()"></button>
+              <button class="btn btn-primat" style="width: 30px; margin-top: 4%; margin-left: 1%; height: 4vh; background: #000; border:1px solid white; border-radius: 50%;" onclick="black()"></button>
+            </div>
+        </ul>
+        </div>
+</nav>
+
+<section class="home">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div style="margin: auto;" class="titles">
+                    <p>Mening web saitimga hush kelibsiz!</p>
+                    <h3>Shavkatbekov Nasibulloh</h3>
+                    <div style="margin: auto; margin-top: 5%;" class="button">
+                        <a  style="margin-left: 25%; "  id="hover" href="#about"> Haqimda </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="services" class="services">
+  <div class="container">
+    <h3 class="text-center">Xizmatlar</h3>
+    <p class="text-center"><i> Xizmatlar bolimi!</i></p>
+    <div class="row mt-5">
+
+      <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
+        <div id="bod" class="card">
+          <div class="card-header">
+            <i style="color: black;" class="fas fa-shopping-cart"></i>
+          </div>
+          <div class="card-body">
+            <h3>Magazin</h3>
+            <p>
+             Men har xil korinishdagi magazinni frontend qismini yasab berishim mumkun!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div  class="col-md-4" data-aos="zoom-in" data-aos-duration="1000">
+        <div id="bo"  class="card">
+          <div class="card-header">
+            <i style="color: black;" class="fas fa-laptop"></i>
+          </div>
+          <div class="card-body">
+            <h3>Web sait</h3>
+            <p>
+              Men turli hildagi istalgan korinishda web sait yasab berishim mumkun!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000">
+        <div id="b" class="card">
+          <div class="card-header">
+            <i style="color: black;" class="fas fa-lock"></i>
+          </div>
+          <div class="card-body">
+            <h3>Mahfilik</h3>
+            <p>
+              Men iloji boricha web saitni mahfiyligini kuchaytirib yasab beraman!
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="skills" id="skills">
+  <div class="title reveal">
+    <h1 style="text-align:center; color: #ffff00; margin-bottom: 2%;" class="section-title">Mahorat</h1>
+  </div>
+  <div class="content">
+    <div class="column col-left reveal">
+      <h2 class="content-title">Mening ko'nikmalarim va tajribalarim</h2>
+      <p>Assalomu aleykum men htmlni 95% bilaman va bir nechta proekt qilganman htmlda,bootstrap 90%,scss 84%, cssni 85% bilaman bir nechta proektlarim bor cssda va JavaScriptni 80% bilaman bir nechta proektlarim bor.(hamma proektlarimni pastda ko'rishinggiz mumkun!) </p>
+    </div>
+    <div class="column col-right reveal">
+      <div class="bar">
+        <div class="info">
+          <span>HTML</span>
+          <span>95%</span>
+        </div>
+        <div class="line html"></div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <span>CSS</span>
+          <span>85%</span>
+        </div>
+        <div class="line css"></div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <span>SCSS</span>
+          <span>84%</span>
+        </div>
+        <div class="line css"></div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <span>BOOTSTRAP</span>
+          <span>90%</span>
+        </div>
+        <div class="line css"></div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <span>JavaScript</span>
+          <span>80%</span>
+        </div>
+        <div class="line javascript"></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section  id="portfolio" class="portfolio">
+  <div style="margin: auto; " class="container">
+    <h3 class="text-center">Portfolia</h3>
+    <p class="text-center"><i>Mening barcha qilgan web saitlarimni korishingiz mumkun boladi!</i></p>
+    <div style="margin: auto; gap: 10%;color: black ;" class="row mt-5">
+      <div id="card1" class="card" style="width: 18rem; margin-top: 2%; margin: auto; border: 1px solid black;">
+        <img src="./images/portfolio/meta.jpg" class="card-img-top" alt="...">
+        <div style="text-align:start;" class="card-body">   
+          <h4 style="margin-top: 3%;">Meta</h4>
+          <p>Bu web saitni birinchi bolib yaratkanman bu meta web saiti!</p>
+          <a href="https://metaa.netlify.app/" style=" color:#ffff00; background: black;  border: 1px solid #ffff00;" class="btn btn-primary">Saitni ko'tish</a>
+        </div>
+      </div>
+      <div id="card2" class="card" style="width: 18rem; margin-top: 2%; margin:auto; border: 1px solid black;">
+        <img src="./images/portfolio/healtcare.jpg" class="card-img-top" alt="...">
+        <div style="text-align:start;" class="card-body">   
+          <h4 style="margin-top: 3%;">Healthcare</h4>
+          <p>Bu web sait doctorlarni web saiti!(shunchaki qilganman)</p>
+          <a href="https://healthcareee.netlify.app/" style=" color:#ffff00; background: black;  border: 1px solid #ffff00;" class="btn btn-primary">Saitni ko'tish</a>
+        </div>
+      </div>
+    </div>  
+    <div style="margin: auto; gap: 10%;color: black ;" class="row mt-5">   
+      <div id="card3" class="card" style="width: 18rem; margin-top: 2%; margin:auto; border: 1px solid black;">
+        <img src="./images/portfolio/maktab.jpg" class="card-img-top" alt="...">
+        <div style="text-align:start;" class="card-body">   
+          <h4 style="margin-top: 3%;">Maktab</h4>
+          <p>Bu men qilgan eng katta web sait bolib u 12ta bo'limdan iborat!</p>
+          <a href="https://02-maktab.netlify.app/" style=" color:#ffff00; background: black;  border: 1px solid #ffff00;" class="btn btn-primary">Saitni ko'tish</a>
+        </div>
+      </div>
+
+
+      <div id="card4" class="card" style="width: 18rem; margin-top: 2%; margin:auto; border: 1px solid black;">
+        <img src="./images/portfolio/obhavo.jpg" class="card-img-top" alt="...">
+        <div style="text-align:start;" class="card-body">   
+          <h4 style="margin-top: 3%;">Obi Havo</h4>
+          <p>Bu websait obi havoni korsatib turadi istalgan davlatni korsatadi!(telefonlar uchun moslashmagan !)</p>
+          <a href="https://weather-add.netlify.app/" style=" color:#ffff00; background: black;  border: 1px solid #ffff00;" class="btn btn-primary">Saitni ko'tish</a>
+       </div>
+      </div>
+
+</div> 
+
+    <div style="margin: auto; gap: 10%; color: black ;" class="row mt-4">
+      <div id="card5" class="card" style="width: 18rem; margin-top: 2%; margin:auto; border: 1px solid black;">
+        <img src="./images/portfolio/fastfood.jpg" class="card-img-top" alt="...">
+        <div style="text-align:start;" class="card-body">             
+          <h4 style="margin-top: 3%;">Fast food</h4>
+          <p>bu web saitda siz hohlagan taomizni korib buyurtma bera olasiz!</p>
+          <a href="https://doda-lavash.netlify.app/" style=" color:#ffff00; background: black;  border: 1px solid #ffff00;" class="btn btn-primary">Saitni ko'tish</a>
+       </div>
+      </div>
+      <div id="card6" class="card" style="width: 18rem; margin-top: 2%; margin:auto; border: 1px solid black;">
+        <img src="./images/portfolio/kun.jpg" class="card-img-top" alt="...">
+        <div style="text-align:start;" class="card-body">
+          <h4 style="margin-top: 3%;">Kun.uz</h4>
+          <p>Kun uz web saitni bitda bo'limini yaratkanman! </p>
+          <a href="https://kun-web-king.netlify.app/" style=" color:#ffff00; background: black;  border: 1px solid #ffff00;" class="btn btn-primary">Saitni ko'tish</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="container">
+    <h3 class="text-center">Haqimda</h3>
+    <p class="text-center"><i>Men haqimda</i></p>
+    <div class="row">
+
+      <div class="col-md-4" data-aos="fade-right" data-aos-duration="950">
+        <img class="w-100" src="./images/about/photo_2022-12-18_15-54-29.jpg" alt="my picture">
+      </div>
+      <div class="col-md-4">
+        <div class="info">
+          <h4> Shavkatbekov Nasibulloh</h4>
+          <p>
+            Assalomu aleykum men shavkatbekov Nasibulloh web king o'quv markazida o'qiganman frontend dasturlash boyicha. Html, css, bootstrap, scss, javascript tillarni bilaman va jamoa bilan ishlay olaman.  
+          </p>
+          <ul class="main">
+            <li>
+              <span class="firstSpan">
+                <i class="fas fa-user"></i>
+                Name:
+              </span>
+              <span class="secondSpan">
+                 Nasibulloh
+              </span>
+            </li>
+            <li>
+              <span class="firstSpan">
+                <i class="fas fa-calendar-alt"></i>
+                Birthday:
+              </span>
+              <span class="secondSpan">
+                28 oktyabr 2007
+              </span>
+            </li>
+            <li>
+              <span class="firstSpan">
+                <i class="fas fa-map-marker-alt"></i>
+                Address:
+              </span>
+              <span class="secondSpan">
+                Andijon, Uzbekistan
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<div id="aloqa" class="aloqa">
+<h3 class="text-center">Aloqa</h3>
+<p class="text-center"><i>Aloqaga chiqish uchun shu yerga yozing.</i></p>
+ 
+<form  id="form" class="form">
+  <div class="label-float">
+    <input class="inputt" style="width: 60%; margin-left: 9%;    border: 1px solid black;" id="text" type="text" placeholder=" " required/>
+    <label style="margin-left: 10%; color: black; " id="tet">Ism</label>
+  </div>
+  <div class="label-float">
+    <input class="inputt" style="width: 60%; margin-left: 9%;     border: 1px solid black;" id="textt" type="number" placeholder=" " required/>
+    <label style="margin-left: 10%; color: black; " id="tett">Nomer</label>
+  </div>
+
+
+  <div class="label-float">
+    <input class="inputt" style="width: 60%; margin-left: 9%;    border: 1px solid black;" id="texttt" type="text" placeholder=" " required/>
+    <label style="margin-left: 10%; color: black; " id="tettt">Text</label>
+  </div>
+  <button style="width: 100px; margin-left:5%; margin-top: 2%; color:#ffff00; background: black;  border: 1px solid #ffff00;"  type="submit"  class="btn btn-primary">Yuborish</ip>
+</form>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="copyright">
+            <p>
+            Web sait Shavkatbekov Nasibulloh tomonidan yaratildi 2023. 
+            </p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="social-networks">
+          <a href="#" class="networks">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="#" class="networks">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="networks">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <p class="smallInfo">
+          Aloqaga chiqish uchun yana bir yo'li Tel:+998906225737 <br> Telegram: +998906225737 <br>   Insta:Nasibullo_07.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="./Bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+<script src="./Bootstrap/js/popper.min.js"></script>
+<script src="./Bootstrap/js/bootstrap.min.js"></script>
+<script src="./aos/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="./js/app.js"></script>
+</body>
+</html>
